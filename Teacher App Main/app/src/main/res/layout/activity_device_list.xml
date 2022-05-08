@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.androidtut.qaifi.bluetoothchatapp.DeviceListActivity">
+
+    <ProgressBar
+        android:id="@+id/progress_scan_devices"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/str_paired_devices" />-->
+
+    <ListView
+        android:id="@+id/list_paired_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_available_devices" />
+
+    <ListView
+
+        android:id="@+id/list_available_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20PC24"
+        android:visibility="invisible"
+        android:id="@+id/check_20pc24"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20PC35"
+        android:visibility="invisible"
+        android:id="@+id/check_20pc35"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20PC22"
+        android:visibility="invisible"
+        android:id="@+id/check_20pc22"
+        />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Submit" />
+    <Button
+        android:id="@+id/submit1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="FINISH" />
+</LinearLayout>
