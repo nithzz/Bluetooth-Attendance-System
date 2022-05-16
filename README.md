@@ -1,11 +1,5 @@
 # Attendance_System_Bluetooth
 
-## Team : TROJAN ARMY 
-### Asvika M 20PC09
-### Nithiya Shri M 20PC24
-### Varun S 20PC35
-
-## Our Idea
 The Attendance Monitoring System is designed to automate the process of manual attendance by using the advantage of Bluetooth technology present in all the smart phones. 
 Our system starts with the students switching on the bluetooth in their respective smartphones and making it Discoverable.  
 Each student's MAC Address of their respective smartphones are pre recorded and stored along with their name and roll number.  
@@ -14,7 +8,7 @@ After capturing all the discoverable devices it scans the pre recorded database 
 If successfull they are given attendance.   
 
 
-## Advantages of our Project
+## Advantage
 
 1. Reduces the workload of taking manual attendance.
 2. Proxy can be avoided using Biometric Authentication while starting the App. 
