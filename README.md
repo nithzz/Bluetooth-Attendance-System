@@ -5,7 +5,7 @@ Our system starts with the students switching on the bluetooth in their respecti
 Each student's MAC Address of their respective smartphones are pre recorded and stored along with their name and roll number.  
 When the mobile is discoverable and within the bluetooth range the device's MAC Address is captured and sent to the teacher for verification.  
 After capturing all the discoverable devices it scans the pre recorded database to match the MAC Address's captured .  
-If successfull they are given attendance.   
+If successful they are given attendance.   
 
 
 ## Advantage
